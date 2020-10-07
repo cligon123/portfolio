@@ -19,14 +19,11 @@ You will find this is far easier than the opposite task of using CSS to cram you
     box-sizing: border-box;
 }
 
-body,
-    {
+body, html {
     background-color: #F9E691;
     font-family: 'Cormorant Garamond', serif;
-}
-
-/* Sets default font-size to 16px, ensuring 1em = 16px; */
-font-size: 16px;
+    font-size: 16px;
+    /* Sets default font-size to 16px, ensuring 1em = 16px; */
 }
 
 /* Adds responsiveness to all images */
@@ -53,11 +50,7 @@ figure {
     margin: auto;
 }
 
-.main_img {
-    width: 100%;
-}
-
-h1, {
+h1 {
     font-family: 'Cormorant Garamond', serif;
 }
 
